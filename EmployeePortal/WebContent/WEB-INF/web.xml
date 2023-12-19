@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>EmployeePortal</display-name>
+  <welcome-file-list>
+    <welcome-file>empportal.jsp</welcome-file>  
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet-mapping>
+  <servlet-name>UpdateRecord</servlet-name>
+   <url-pattern>/UpdateRecord</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>UpdateRecord</servlet-name>
+  <servlet-class>Portal.UpdateRecord</servlet-class>
+  </servlet>
+</web-app>

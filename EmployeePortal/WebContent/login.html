@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+body{
+background-color: aqua;
+}
+
+
+#from{
+width:40%;
+margin:  auto;
+margin-top:8rem;
+
+}
+
+
+#contain{
+text-align: center;
+}
+
+#input{
+width: 40%;
+height: 1.5rem;
+}
+
+#boot{
+display: flex;
+justify-content: center;
+margin-top: 1rem;
+}
+
+button {
+	background-color: white;
+	text-decoration: none;
+	border: none;
+	border: 1px solid black;
+	margin-right: 4px;
+}
+
+button:hover {
+    color: red;
+    font-style: italic;
+    cursor: pointer;
+}
+</style>
+</head>
+<body>
+<form action="empportal.jsp" id ="from">
+<div id = "contain">
+<h1 style="color: green;">EMPLOYEE PORTAL</h1>
+<label for="input">Enter The ID</label> <br>
+<input type="number" id="input" name="id" placeholder="Enter Your Id"> <br>
+<div id="boot">
+<button type="login" name="log" value="1">LOGIN</button> <br>
+<button type="signup" name="log" value="2">SIGN UP</button> <br>
+</div>
+</div>
+</form>
+</body>
+</html>
